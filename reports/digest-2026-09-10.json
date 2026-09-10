@@ -1,114 +1,119 @@
 {
-  "generated_at": "2026-09-10T17:04:43.064000+00:00",
+  "generated_at": "2026-09-10T21:32:08.957431+00:00",
   "period_start": "2026-09-10",
   "period_end": "2026-09-10",
   "days": [
     "2026-09-10"
   ],
-  "cycles_total": 206,
-  "cycles_skipped": 162,
-  "cycles_traded": 44,
+  "cycles_total": 260,
+  "cycles_skipped": 181,
+  "cycles_traded": 79,
   "skip_reasons": {
-    "marche ferme": 162
+    "marche ferme": 181
   },
   "equity_start": 99754.09,
-  "equity_end": 99586.76,
-  "pnl": -167.33,
-  "pnl_pct": -0.168,
+  "equity_end": 99631.73,
+  "pnl": -122.36,
+  "pnl_pct": -0.123,
   "equity_min": 99497.67,
   "equity_max": 99759.04,
   "max_drawdown_pct": -0.262,
-  "gross_exposure_min": 0.0676,
+  "gross_exposure_min": 0.0541,
   "gross_exposure_max": 0.1212,
-  "gross_exposure_mean": 0.1114,
-  "orders_total": 3,
-  "orders_submitted": 3,
+  "gross_exposure_mean": 0.1017,
+  "orders_total": 9,
+  "orders_submitted": 6,
   "orders_by_side": {
-    "sell": 2,
-    "buy": 1
+    "sell": 7,
+    "buy": 2
   },
   "kill_switch_events": 0,
-  "errors": [],
+  "errors": [
+    "NVDA: APIError: {\"available\":\"10.3762\",\"code\":40310000,\"existing_qty\":\"10.3762\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 10.3772, available: 10.3762)\",\"symbol\"",
+    "NVDA: APIError: {\"available\":\"10.3762\",\"code\":40310000,\"existing_qty\":\"10.3762\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 10.3774, available: 10.3762)\",\"symbol\"",
+    "NVDA: APIError: {\"available\":\"10.3762\",\"code\":40310000,\"existing_qty\":\"10.3762\",\"held_for_orders\":\"0\",\"message\":\"insufficient qty available for order (requested: 10.3767, available: 10.3762)\",\"symbol\""
+  ],
   "rejections_by_family": {
-    "ecart sous la bande de rebalancement": 89,
-    "notionnel sous le minimum": 128
+    "ecart sous la bande de rebalancement": 142,
+    "notionnel sous le minimum": 244
   },
   "symbols": [
     {
       "symbol": "AAPL",
-      "cycles": 44,
+      "cycles": 79,
       "score_min": -0.0342,
-      "score_mean": 0.2095,
+      "score_mean": 0.1971,
       "score_max": 0.2783,
-      "sentiment_mean": 0.2209,
-      "sentiment_confidence_mean": 0.5011,
+      "sentiment_mean": 0.211,
+      "sentiment_confidence_mean": 0.4943,
       "weight_start": 0.0,
-      "weight_end": 0.0539,
+      "weight_end": 0.0543,
       "orders": 1,
       "rejections": {
         "notionnel sous le minimum": 9,
-        "ecart sous la bande de rebalancement": 34
+        "ecart sous la bande de rebalancement": 69
       }
     },
     {
       "symbol": "AMD",
-      "cycles": 44,
-      "score_min": 0.2226,
-      "score_mean": 0.2811,
+      "cycles": 79,
+      "score_min": 0.0353,
+      "score_mean": 0.2153,
       "score_max": 0.3182,
-      "sentiment_mean": 0.3136,
-      "sentiment_confidence_mean": 0.5159,
+      "sentiment_mean": 0.2373,
+      "sentiment_confidence_mean": 0.4519,
       "weight_start": 0.0254,
-      "weight_end": 0.0251,
-      "orders": 0,
+      "weight_end": 0.0,
+      "orders": 1,
       "rejections": {
-        "ecart sous la bande de rebalancement": 44
+        "ecart sous la bande de rebalancement": 61,
+        "notionnel sous le minimum": 17
       }
     },
     {
       "symbol": "MSFT",
-      "cycles": 44,
+      "cycles": 79,
       "score_min": 0.0572,
-      "score_mean": 0.0794,
+      "score_mean": 0.08,
       "score_max": 0.0896,
-      "sentiment_mean": 0.0236,
-      "sentiment_confidence_mean": 0.25,
+      "sentiment_mean": 0.0248,
+      "sentiment_confidence_mean": 0.2549,
       "weight_start": 0.0507,
       "weight_end": 0.0,
       "orders": 1,
       "rejections": {
-        "notionnel sous le minimum": 43
+        "notionnel sous le minimum": 78
       }
     },
     {
       "symbol": "NVDA",
-      "cycles": 44,
+      "cycles": 79,
       "score_min": -0.0094,
-      "score_mean": 0.0433,
+      "score_mean": 0.0414,
       "score_max": 0.2253,
-      "sentiment_mean": -0.0761,
-      "sentiment_confidence_mean": 0.4148,
+      "sentiment_mean": -0.0786,
+      "sentiment_confidence_mean": 0.4108,
       "weight_start": 0.043,
       "weight_end": 0.0,
-      "orders": 1,
+      "orders": 6,
       "rejections": {
-        "ecart sous la bande de rebalancement": 11,
-        "notionnel sous le minimum": 32
+        "ecart sous la bande de rebalancement": 12,
+        "notionnel sous le minimum": 61
       }
     },
     {
       "symbol": "TSLA",
-      "cycles": 44,
+      "cycles": 79,
       "score_min": 0.0541,
-      "score_mean": 0.0799,
+      "score_mean": 0.078,
       "score_max": 0.0937,
-      "sentiment_mean": 0.0416,
-      "sentiment_confidence_mean": 0.2705,
+      "sentiment_mean": 0.0401,
+      "sentiment_confidence_mean": 0.2658,
       "weight_start": 0.0,
       "weight_end": 0.0,
       "orders": 0,
       "rejections": {
-        "notionnel sous le minimum": 44
+        "notionnel sous le minimum": 79
       }
     }
   ],
@@ -117,33 +122,33 @@
       "symbol": "AAPL",
       "qty": 16.6096,
       "avg_entry_price": 319.28,
-      "current_price": 323.1,
-      "weight": 0.0539,
-      "unrealized_pl": 63.45
+      "current_price": 325.9017,
+      "weight": 0.0543,
+      "unrealized_pl": 109.98
     },
     {
       "symbol": "AMD",
-      "qty": 4.9398,
+      "qty": 0.0006,
       "avg_entry_price": 522.72,
-      "current_price": 505.725,
-      "weight": 0.0251,
-      "unrealized_pl": -83.95
+      "current_price": 504.22,
+      "weight": 0.0,
+      "unrealized_pl": -0.01
     },
     {
       "symbol": "MSFT",
       "qty": 0.0052,
       "avg_entry_price": 493.7584,
-      "current_price": 493.625,
+      "current_price": 490.0,
       "weight": 0.0,
-      "unrealized_pl": -0.0
+      "unrealized_pl": -0.02
     },
     {
       "symbol": "NVDA",
-      "qty": 0.004,
-      "avg_entry_price": 232.1354,
-      "current_price": 218.6501,
+      "qty": 0.001,
+      "avg_entry_price": 218.2558,
+      "current_price": 218.85,
       "weight": 0.0,
-      "unrealized_pl": -0.05
+      "unrealized_pl": 0.0
     }
   ],
   "config": {
@@ -177,5 +182,8 @@
     "take_profit_atr_mult": 4.0,
     "poll_interval_seconds": 300
   },
-  "warnings": []
+  "warnings": [
+    "3 erreur(s) d'envoi d'ordre enregistrees.",
+    "3 ordre(s) calcules mais non transmis (mode dry run, ou echec broker)."
+  ]
 }
