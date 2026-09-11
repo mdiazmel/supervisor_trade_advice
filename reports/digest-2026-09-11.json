@@ -1,65 +1,134 @@
 {
-  "generated_at": "2026-09-11T09:29:50.476387+00:00",
+  "generated_at": "2026-09-11T20:31:14.793476+00:00",
   "period_start": "2026-09-11",
   "period_end": "2026-09-11",
   "days": [
     "2026-09-11"
   ],
-  "cycles_total": 115,
-  "cycles_skipped": 115,
-  "cycles_traded": 0,
+  "cycles_total": 238,
+  "cycles_skipped": 170,
+  "cycles_traded": 68,
   "skip_reasons": {
-    "marche ferme": 115
+    "marche ferme": 170
   },
   "equity_start": 99630.01,
-  "equity_end": 99622.27,
-  "pnl": -7.74,
-  "pnl_pct": -0.008,
+  "equity_end": 99749.23,
+  "pnl": 119.22,
+  "pnl_pct": 0.12,
   "equity_min": 99619.61,
-  "equity_max": 99642.69,
-  "max_drawdown_pct": -0.023,
-  "gross_exposure_min": 0.0542,
-  "gross_exposure_max": 0.0545,
-  "gross_exposure_mean": 0.0543,
-  "orders_total": 0,
-  "orders_submitted": 0,
-  "orders_by_side": {},
+  "equity_max": 99803.39,
+  "max_drawdown_pct": -0.055,
+  "gross_exposure_min": 0.0374,
+  "gross_exposure_max": 0.0931,
+  "gross_exposure_mean": 0.0576,
+  "orders_total": 6,
+  "orders_submitted": 6,
+  "orders_by_side": {
+    "buy": 3,
+    "sell": 3
+  },
   "kill_switch_events": 0,
   "errors": [],
-  "rejections_by_family": {},
-  "symbols": [],
-  "open_positions": [
+  "rejections_by_family": {
+    "ecart sous la bande de rebalancement": 142
+  },
+  "symbols": [
     {
       "symbol": "AAPL",
-      "qty": 16.6096,
-      "avg_entry_price": 319.28,
-      "current_price": 325.35,
-      "weight": 0.0542,
-      "unrealized_pl": 100.82
+      "cycles": 68,
+      "score_min": 0.0822,
+      "score_mean": 0.1618,
+      "score_max": 0.2641,
+      "sentiment_mean": 0.0709,
+      "sentiment_confidence_mean": 0.4074,
+      "weight_start": 0.0551,
+      "weight_end": 0.0433,
+      "orders": 2,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 41
+      }
     },
     {
       "symbol": "AMD",
-      "qty": 0.0006,
-      "avg_entry_price": 522.72,
-      "current_price": 508.1127,
-      "weight": 0.0,
-      "unrealized_pl": -0.01
+      "cycles": 68,
+      "score_min": 0.0536,
+      "score_mean": 0.1467,
+      "score_max": 0.2616,
+      "sentiment_mean": 0.1569,
+      "sentiment_confidence_mean": 0.3316,
+      "weight_start": 0.0,
+      "weight_end": 0.0155,
+      "orders": 2,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 34
+      }
     },
     {
       "symbol": "MSFT",
-      "qty": 0.0052,
-      "avg_entry_price": 493.09,
-      "current_price": 492.95,
-      "weight": 0.0,
-      "unrealized_pl": -0.0
+      "cycles": 68,
+      "score_min": 0.0825,
+      "score_mean": 0.1356,
+      "score_max": 0.2093,
+      "sentiment_mean": 0.0962,
+      "sentiment_confidence_mean": 0.3368,
+      "weight_start": 0.0,
+      "weight_end": 0.0,
+      "orders": 1,
+      "rejections": {}
     },
     {
       "symbol": "NVDA",
-      "qty": 0.001,
-      "avg_entry_price": 218.29,
-      "current_price": 220.27,
-      "weight": 0.0,
-      "unrealized_pl": 0.0
+      "cycles": 68,
+      "score_min": 0.1346,
+      "score_mean": 0.1899,
+      "score_max": 0.266,
+      "sentiment_mean": 0.1799,
+      "sentiment_confidence_mean": 0.4391,
+      "weight_start": 0.0,
+      "weight_end": 0.0219,
+      "orders": 1,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 67
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "cycles": 68,
+      "score_min": 0.0456,
+      "score_mean": 0.1138,
+      "score_max": 0.1558,
+      "sentiment_mean": -0.0219,
+      "sentiment_confidence_mean": 0.3044,
+      "weight_start": 0.0,
+      "weight_end": 0.0,
+      "orders": 0,
+      "rejections": {}
+    }
+  ],
+  "open_positions": [
+    {
+      "symbol": "AAPL",
+      "qty": 13.0,
+      "avg_entry_price": 332.7554,
+      "current_price": 332.5139,
+      "weight": 0.0433,
+      "unrealized_pl": -3.14
+    },
+    {
+      "symbol": "AMD",
+      "qty": 3.0,
+      "avg_entry_price": 512.61,
+      "current_price": 515.2572,
+      "weight": 0.0155,
+      "unrealized_pl": 7.94
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 10.001,
+      "avg_entry_price": 219.6399,
+      "current_price": 218.3724,
+      "weight": 0.0219,
+      "unrealized_pl": -12.68
     }
   ],
   "config": {
@@ -93,7 +162,5 @@
     "take_profit_atr_mult": 4.0,
     "poll_interval_seconds": 300
   },
-  "warnings": [
-    "Aucun cycle actif sur la periode (marche ferme ou agent en pause)."
-  ]
+  "warnings": []
 }
