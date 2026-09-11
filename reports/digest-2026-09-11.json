@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-11T09:29:50.476387+00:00",
+  "period_start": "2026-09-11",
+  "period_end": "2026-09-11",
+  "days": [
+    "2026-09-11"
+  ],
+  "cycles_total": 115,
+  "cycles_skipped": 115,
+  "cycles_traded": 0,
+  "skip_reasons": {
+    "marche ferme": 115
+  },
+  "equity_start": 99630.01,
+  "equity_end": 99622.27,
+  "pnl": -7.74,
+  "pnl_pct": -0.008,
+  "equity_min": 99619.61,
+  "equity_max": 99642.69,
+  "max_drawdown_pct": -0.023,
+  "gross_exposure_min": 0.0542,
+  "gross_exposure_max": 0.0545,
+  "gross_exposure_mean": 0.0543,
+  "orders_total": 0,
+  "orders_submitted": 0,
+  "orders_by_side": {},
+  "kill_switch_events": 0,
+  "errors": [],
+  "rejections_by_family": {},
+  "symbols": [],
+  "open_positions": [
+    {
+      "symbol": "AAPL",
+      "qty": 16.6096,
+      "avg_entry_price": 319.28,
+      "current_price": 325.35,
+      "weight": 0.0542,
+      "unrealized_pl": 100.82
+    },
+    {
+      "symbol": "AMD",
+      "qty": 0.0006,
+      "avg_entry_price": 522.72,
+      "current_price": 508.1127,
+      "weight": 0.0,
+      "unrealized_pl": -0.01
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 0.0052,
+      "avg_entry_price": 493.09,
+      "current_price": 492.95,
+      "weight": 0.0,
+      "unrealized_pl": -0.0
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 0.001,
+      "avg_entry_price": 218.29,
+      "current_price": 220.27,
+      "weight": 0.0,
+      "unrealized_pl": 0.0
+    }
+  ],
+  "config": {
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "TSLA",
+      "AMD"
+    ],
+    "timeframe": "1Day",
+    "paper": true,
+    "dry_run": false,
+    "sentiment_enabled": true,
+    "sentiment_model": "claude-opus-5",
+    "weight_technical": 0.65,
+    "weight_sentiment": 0.35,
+    "entry_threshold": 0.25,
+    "exit_threshold": 0.1,
+    "allow_short": false,
+    "sma_fast": 20,
+    "sma_slow": 50,
+    "rsi_period": 14,
+    "max_position_weight": 0.2,
+    "max_gross_exposure": 0.9,
+    "max_daily_loss": 0.03,
+    "rebalance_tolerance": 0.02,
+    "volatility_target": 0.2,
+    "max_positions": 10,
+    "stop_loss_atr_mult": 2.0,
+    "take_profit_atr_mult": 4.0,
+    "poll_interval_seconds": 300
+  },
+  "warnings": [
+    "Aucun cycle actif sur la periode (marche ferme ou agent en pause)."
+  ]
+}
