@@ -1,0 +1,172 @@
+{
+  "generated_at": "2026-09-16T20:31:44.181457+00:00",
+  "period_start": "2026-09-16",
+  "period_end": "2026-09-16",
+  "days": [
+    "2026-09-16"
+  ],
+  "cycles_total": 248,
+  "cycles_skipped": 170,
+  "cycles_traded": 78,
+  "skip_reasons": {
+    "marche ferme": 170
+  },
+  "equity_start": 99542.61,
+  "equity_end": 99525.21,
+  "pnl": -17.4,
+  "pnl_pct": -0.017,
+  "equity_min": 99412.87,
+  "equity_max": 99656.32,
+  "max_drawdown_pct": -0.244,
+  "gross_exposure_min": 0.0665,
+  "gross_exposure_max": 0.1572,
+  "gross_exposure_mean": 0.0933,
+  "orders_total": 8,
+  "orders_submitted": 8,
+  "orders_by_side": {
+    "buy": 6,
+    "sell": 2
+  },
+  "kill_switch_events": 0,
+  "errors": [],
+  "rejections_by_family": {
+    "ecart sous la bande de rebalancement": 223
+  },
+  "rebalance_gaps": {
+    "count": 223,
+    "min": 0.0,
+    "median": 0.0027,
+    "max": 0.0099
+  },
+  "symbols": [
+    {
+      "symbol": "AAPL",
+      "cycles": 78,
+      "score_min": 0.3203,
+      "score_mean": 0.3539,
+      "score_max": 0.379,
+      "sentiment_mean": 0.2468,
+      "sentiment_confidence_mean": 0.4135,
+      "weight_start": 0.0669,
+      "weight_end": 0.0801,
+      "orders": 1,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 77
+      }
+    },
+    {
+      "symbol": "AMD",
+      "cycles": 78,
+      "score_min": 0.2176,
+      "score_mean": 0.2784,
+      "score_max": 0.3214,
+      "sentiment_mean": 0.3218,
+      "sentiment_confidence_mean": 0.4321,
+      "weight_start": 0.0,
+      "weight_end": 0.036,
+      "orders": 2,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 76
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "cycles": 78,
+      "score_min": 0.0372,
+      "score_mean": 0.105,
+      "score_max": 0.1389,
+      "sentiment_mean": 0.0579,
+      "sentiment_confidence_mean": 0.2564,
+      "weight_start": 0.0,
+      "weight_end": 0.0,
+      "orders": 0,
+      "rejections": {}
+    },
+    {
+      "symbol": "NVDA",
+      "cycles": 78,
+      "score_min": -0.0185,
+      "score_mean": 0.3152,
+      "score_max": 0.3466,
+      "sentiment_mean": 0.3346,
+      "sentiment_confidence_mean": 0.5436,
+      "weight_start": 0.0,
+      "weight_end": 0.0408,
+      "orders": 5,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 70
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "cycles": 78,
+      "score_min": 0.0779,
+      "score_mean": 0.1331,
+      "score_max": 0.2345,
+      "sentiment_mean": -0.0641,
+      "sentiment_confidence_mean": 0.3744,
+      "weight_start": 0.0,
+      "weight_end": 0.0,
+      "orders": 0,
+      "rejections": {}
+    }
+  ],
+  "open_positions": [
+    {
+      "symbol": "AAPL",
+      "qty": 24.0,
+      "avg_entry_price": 333.2583,
+      "current_price": 332.5,
+      "weight": 0.0802,
+      "unrealized_pl": -18.2
+    },
+    {
+      "symbol": "AMD",
+      "qty": 7.0,
+      "avg_entry_price": 516.3543,
+      "current_price": 512.5,
+      "weight": 0.036,
+      "unrealized_pl": -26.98
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 19.0,
+      "avg_entry_price": 215.8479,
+      "current_price": 214.2931,
+      "weight": 0.0409,
+      "unrealized_pl": -29.54
+    }
+  ],
+  "config": {
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "TSLA",
+      "AMD"
+    ],
+    "timeframe": "1Day",
+    "paper": true,
+    "dry_run": false,
+    "sentiment_enabled": true,
+    "sentiment_model": "claude-sonnet-5",
+    "weight_technical": 0.65,
+    "weight_sentiment": 0.35,
+    "entry_threshold": 0.25,
+    "exit_threshold": 0.1,
+    "allow_short": false,
+    "sma_fast": 20,
+    "sma_slow": 50,
+    "rsi_period": 14,
+    "max_position_weight": 0.25,
+    "max_gross_exposure": 0.9,
+    "max_daily_loss": 0.03,
+    "rebalance_tolerance": 0.01,
+    "volatility_target": 0.2,
+    "max_positions": 10,
+    "stop_loss_atr_mult": 2.0,
+    "take_profit_atr_mult": 4.0,
+    "poll_interval_seconds": 300
+  },
+  "warnings": []
+}
