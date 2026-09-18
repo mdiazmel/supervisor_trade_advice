@@ -1,0 +1,179 @@
+{
+  "generated_at": "2026-09-18T20:30:34.063681+00:00",
+  "period_start": "2026-09-18",
+  "period_end": "2026-09-18",
+  "days": [
+    "2026-09-18"
+  ],
+  "cycles_total": 247,
+  "cycles_skipped": 169,
+  "cycles_traded": 78,
+  "skip_reasons": {
+    "marche ferme": 169
+  },
+  "equity_start": 99867.64,
+  "equity_end": 99928.39,
+  "pnl": 60.75,
+  "pnl_pct": 0.061,
+  "equity_min": 99715.57,
+  "equity_max": 99962.7,
+  "max_drawdown_pct": -0.236,
+  "gross_exposure_min": 0.1315,
+  "gross_exposure_max": 0.1969,
+  "gross_exposure_mean": 0.1453,
+  "orders_total": 7,
+  "orders_submitted": 7,
+  "orders_by_side": {
+    "buy": 4,
+    "sell": 3
+  },
+  "kill_switch_events": 0,
+  "errors": [],
+  "rejections_by_family": {
+    "ecart sous la bande de rebalancement": 163
+  },
+  "rebalance_gaps": {
+    "count": 163,
+    "min": 0.0002,
+    "median": 0.0019,
+    "max": 0.0098
+  },
+  "symbols": [
+    {
+      "symbol": "AAPL",
+      "cycles": 78,
+      "score_min": 0.4353,
+      "score_mean": 0.458,
+      "score_max": 0.5027,
+      "sentiment_mean": 0.4269,
+      "sentiment_min": 0.0,
+      "sentiment_max": 0.5,
+      "sentiment_confidence_mean": 0.5974,
+      "weight_start": 0.1048,
+      "weight_end": 0.1244,
+      "orders": 4,
+      "exits": 0,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 74
+      }
+    },
+    {
+      "symbol": "AMD",
+      "cycles": 78,
+      "score_min": 0.3242,
+      "score_mean": 0.3699,
+      "score_max": 0.4259,
+      "sentiment_mean": 0.416,
+      "sentiment_min": 0.35,
+      "sentiment_max": 0.5,
+      "sentiment_confidence_mean": 0.5731,
+      "weight_start": 0.0274,
+      "weight_end": 0.0448,
+      "orders": 1,
+      "exits": 0,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 77
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "cycles": 78,
+      "score_min": 0.0119,
+      "score_mean": 0.0977,
+      "score_max": 0.1382,
+      "sentiment_mean": 0.0417,
+      "sentiment_min": -0.1,
+      "sentiment_max": 0.1,
+      "sentiment_confidence_mean": 0.2756,
+      "weight_start": 0.0,
+      "weight_end": 0.0,
+      "orders": 0,
+      "exits": 0,
+      "rejections": {}
+    },
+    {
+      "symbol": "NVDA",
+      "cycles": 78,
+      "score_min": 0.0665,
+      "score_mean": 0.2087,
+      "score_max": 0.2618,
+      "sentiment_mean": 0.2327,
+      "sentiment_min": 0.0,
+      "sentiment_max": 0.3,
+      "sentiment_confidence_mean": 0.4244,
+      "weight_start": 0.0,
+      "weight_end": 0.0,
+      "orders": 2,
+      "exits": 1,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 12
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "cycles": 78,
+      "score_min": 0.0133,
+      "score_mean": 0.0875,
+      "score_max": 0.1808,
+      "sentiment_mean": -0.2615,
+      "sentiment_min": -0.35,
+      "sentiment_max": -0.2,
+      "sentiment_confidence_mean": 0.4596,
+      "weight_start": 0.0,
+      "weight_end": 0.0,
+      "orders": 0,
+      "exits": 0,
+      "rejections": {}
+    }
+  ],
+  "open_positions": [
+    {
+      "symbol": "AAPL",
+      "qty": 37.0,
+      "avg_entry_price": 334.5442,
+      "current_price": 335.64,
+      "weight": 0.1243,
+      "unrealized_pl": 40.55
+    },
+    {
+      "symbol": "AMD",
+      "qty": 8.0,
+      "avg_entry_price": 527.5888,
+      "current_price": 557.6955,
+      "weight": 0.0446,
+      "unrealized_pl": 240.85
+    }
+  ],
+  "config": {
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "TSLA",
+      "AMD"
+    ],
+    "timeframe": "1Day",
+    "paper": true,
+    "dry_run": false,
+    "sentiment_enabled": true,
+    "sentiment_model": "claude-sonnet-5",
+    "weight_technical": 0.65,
+    "weight_sentiment": 0.35,
+    "entry_threshold": 0.25,
+    "exit_threshold": 0.1,
+    "allow_short": false,
+    "sma_fast": 20,
+    "sma_slow": 50,
+    "rsi_period": 14,
+    "max_position_weight": 0.25,
+    "max_gross_exposure": 0.9,
+    "max_daily_loss": 0.03,
+    "rebalance_tolerance": 0.01,
+    "volatility_target": 0.2,
+    "max_positions": 10,
+    "stop_loss_atr_mult": 2.0,
+    "take_profit_atr_mult": 4.0,
+    "poll_interval_seconds": 300
+  },
+  "warnings": []
+}
