@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-09-22T20:30:45.630048+00:00",
+  "period_start": "2026-09-22",
+  "period_end": "2026-09-22",
+  "days": [
+    "2026-09-22"
+  ],
+  "cycles_total": 247,
+  "cycles_skipped": 168,
+  "cycles_traded": 79,
+  "skip_reasons": {
+    "marche ferme": 168
+  },
+  "equity_start": 100594.04,
+  "equity_end": 100645.39,
+  "pnl": 51.35,
+  "pnl_pct": 0.051,
+  "equity_min": 100475.17,
+  "equity_max": 100735.34,
+  "max_drawdown_pct": -0.192,
+  "gross_exposure_min": 0.323,
+  "gross_exposure_max": 0.4147,
+  "gross_exposure_mean": 0.3447,
+  "orders_total": 12,
+  "orders_submitted": 12,
+  "orders_by_side": {
+    "sell": 4,
+    "buy": 8
+  },
+  "kill_switch_events": 0,
+  "errors": [],
+  "rejections_by_family": {
+    "ecart sous la bande de rebalancement": 383
+  },
+  "rebalance_gaps": {
+    "count": 383,
+    "min": 0.0,
+    "median": 0.0037,
+    "max": 0.0094
+  },
+  "symbols": [
+    {
+      "symbol": "AAPL",
+      "cycles": 79,
+      "score_min": 0.4738,
+      "score_mean": 0.528,
+      "score_max": 0.5539,
+      "technical_mean": 0.6218,
+      "technical_min": 0.5599,
+      "technical_max": 0.654,
+      "technical_confidence_mean": 0.6218,
+      "sentiment_mean": 0.2665,
+      "sentiment_min": 0.2,
+      "sentiment_max": 0.35,
+      "sentiment_confidence_mean": 0.4234,
+      "sentiment_fallbacks": 0,
+      "weight_start": 0.129,
+      "weight_end": 0.145,
+      "orders": 1,
+      "exits": 0,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 78
+      }
+    },
+    {
+      "symbol": "AMD",
+      "cycles": 79,
+      "score_min": 0.5035,
+      "score_mean": 0.668,
+      "score_max": 0.7229,
+      "technical_mean": 0.7915,
+      "technical_min": 0.6111,
+      "technical_max": 0.8049,
+      "technical_confidence_mean": 0.7915,
+      "sentiment_mean": 0.3424,
+      "sentiment_min": 0.15,
+      "sentiment_max": 0.5,
+      "sentiment_confidence_mean": 0.5576,
+      "sentiment_fallbacks": 0,
+      "weight_start": 0.0605,
+      "weight_end": 0.0744,
+      "orders": 3,
+      "exits": 0,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 76
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "cycles": 79,
+      "score_min": 0.2793,
+      "score_mean": 0.3224,
+      "score_max": 0.3501,
+      "technical_mean": 0.2155,
+      "technical_min": 0.1826,
+      "technical_max": 0.2662,
+      "technical_confidence_mean": 0.1293,
+      "sentiment_mean": 0.3671,
+      "sentiment_min": 0.3,
+      "sentiment_max": 0.4,
+      "sentiment_confidence_mean": 0.5709,
+      "sentiment_fallbacks": 0,
+      "weight_start": 0.0702,
+      "weight_end": 0.0791,
+      "orders": 1,
+      "exits": 0,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 78
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "cycles": 79,
+      "score_min": 0.2101,
+      "score_mean": 0.3387,
+      "score_max": 0.5116,
+      "technical_mean": 0.4939,
+      "technical_min": 0.3377,
+      "technical_max": 0.5218,
+      "technical_confidence_mean": 0.4922,
+      "sentiment_mean": -0.0679,
+      "sentiment_min": -0.2,
+      "sentiment_max": 0.05,
+      "sentiment_confidence_mean": 0.3506,
+      "sentiment_fallbacks": 1,
+      "weight_start": 0.0272,
+      "weight_end": 0.0386,
+      "orders": 5,
+      "exits": 0,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 74
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "cycles": 79,
+      "score_min": 0.4205,
+      "score_mean": 0.4431,
+      "score_max": 0.4633,
+      "technical_mean": 0.5243,
+      "technical_min": 0.4627,
+      "technical_max": 0.5463,
+      "technical_confidence_mean": 0.5243,
+      "sentiment_mean": 0.2386,
+      "sentiment_min": 0.15,
+      "sentiment_max": 0.35,
+      "sentiment_confidence_mean": 0.3924,
+      "sentiment_fallbacks": 0,
+      "weight_start": 0.0374,
+      "weight_end": 0.0565,
+      "orders": 2,
+      "exits": 0,
+      "rejections": {
+        "ecart sous la bande de rebalancement": 77
+      }
+    }
+  ],
+  "open_positions": [
+    {
+      "symbol": "AAPL",
+      "qty": 43.0,
+      "avg_entry_price": 336.4484,
+      "current_price": 340.01,
+      "weight": 0.1453,
+      "unrealized_pl": 153.15
+    },
+    {
+      "symbol": "AMD",
+      "qty": 12.0,
+      "avg_entry_price": 562.8121,
+      "current_price": 621.9252,
+      "weight": 0.0742,
+      "unrealized_pl": 709.36
+    },
+    {
+      "symbol": "MSFT",
+      "qty": 16.0,
+      "avg_entry_price": 496.9506,
+      "current_price": 498.04,
+      "weight": 0.0792,
+      "unrealized_pl": 17.43
+    },
+    {
+      "symbol": "NVDA",
+      "qty": 17.0,
+      "avg_entry_price": 229.0365,
+      "current_price": 228.1001,
+      "weight": 0.0385,
+      "unrealized_pl": -15.92
+    },
+    {
+      "symbol": "TSLA",
+      "qty": 15.0,
+      "avg_entry_price": 375.6867,
+      "current_price": 378.35,
+      "weight": 0.0564,
+      "unrealized_pl": 39.95
+    }
+  ],
+  "config": {
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "TSLA",
+      "AMD"
+    ],
+    "timeframe": "1Day",
+    "paper": true,
+    "dry_run": false,
+    "sentiment_enabled": true,
+    "sentiment_model": "claude-sonnet-5",
+    "weight_technical": 0.65,
+    "weight_sentiment": 0.35,
+    "entry_threshold": 0.25,
+    "exit_threshold": 0.1,
+    "allow_short": false,
+    "sma_fast": 20,
+    "sma_slow": 50,
+    "rsi_period": 14,
+    "max_position_weight": 0.25,
+    "max_gross_exposure": 0.9,
+    "max_daily_loss": 0.03,
+    "rebalance_tolerance": 0.01,
+    "volatility_target": 0.2,
+    "max_positions": 10,
+    "stop_loss_atr_mult": 2.0,
+    "take_profit_atr_mult": 4.0,
+    "poll_interval_seconds": 300
+  },
+  "warnings": []
+}
